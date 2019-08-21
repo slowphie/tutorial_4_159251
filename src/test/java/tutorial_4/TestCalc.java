@@ -11,6 +11,6 @@ public class TestCalc {
 	
 	@Test
 	public void subtractTest() {
-		assertTrue((new Calc().subtractTest(10,5)) == 5);
+		assertTrue((new Calc().subtract(10,5)) == 5);
 	}
 }
